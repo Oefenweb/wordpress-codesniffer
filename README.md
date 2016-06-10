@@ -20,10 +20,6 @@ This lets `phpcs` know where to find your new sniffs. Ensure that you do not ove
 
 ## Usage
 
-When these sniffs are installed with `composer`, ensure that you have configured the CodeSniffer `installed_paths` setting.
-
-Once `installed_paths` is configured, you can run phpcs using:
-
 ```sh
 vendor/bin/phpcs --standard=WordpressOefenweb ~/foo/bar/wp-load.php;
 ```
