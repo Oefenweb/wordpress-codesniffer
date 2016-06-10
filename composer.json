@@ -1,0 +1,24 @@
+{
+	"name": "oefenweb/wordpress-codesniffer",
+	"description": "Oefenweb Code Sniffer for Wordpress",
+	"type": "library",
+	"keywords": [
+		"framework", "codesniffer"
+	],
+	"homepage": "http://github.com/Oefenweb/wordpress-codesniffer",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Oefenweb.nl BV team",
+			"homepage": "https://github.com/Oefenweb/wordpress-codesniffer/contributors"
+		}
+	],
+	"require": {
+		"php": ">=5.4.16",
+		"wp-coding-standards/wpcs": "~0.9"
+	},
+	"support": {
+		"issues": "https://github.com/Oefenweb/wordpress-codesniffer/issues",
+		"source": "https://github.com/Oefenweb/wordpress-codesniffer"
+	}
+}
