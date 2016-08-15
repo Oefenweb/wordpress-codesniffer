@@ -9,4 +9,9 @@
 		<exclude name="WordPress.VIP.RestrictedFunctions.get_page_by_title"/>
 		<exclude name="WordPress.VIP.RestrictedFunctions.get_term_by"/>
 	</rule>
+	<rule ref="WordPress.XSS.EscapeOutput">
+		<properties>
+			<property name="customAutoEscapedFunctions" value="no_escape" type="array" />
+		</properties>
+	</rule>
 </ruleset>
